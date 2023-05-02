@@ -126,7 +126,7 @@ class _Slide extends StatelessWidget {
                   }
 
                   return GestureDetector(
-                    onTap: () => context.pushNamed('movie_screen', params: {'id': '${movie.id}'}),
+                    onTap: () => context.push('/home/0/movie/${movie.id}'),
                     child: child,
                   );
                 },
