@@ -11,3 +11,7 @@ export 'actors/actors_repository_provider.dart';
 
 // Search Providers
 export 'search/search_movies_provider.dart';
+
+// Storage Providers
+export 'storage/local_storage_provider.dart';
+export 'storage/favorites_movies_provider.dart';
